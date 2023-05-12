@@ -59,7 +59,7 @@ input {
   justify-content: space-between;
   padding: 24px 0; /* calculated padding */
 }
-.page-header {
+.header__nav {
   display: flex;
   align-items: center; /* needed for centering 'nav' items to 'logo' */
   background-color: var(--color-light);
@@ -71,10 +71,10 @@ input {
   font-weight: 700;
   line-height: 1.2;
 }
-.logo-light {
+.logo--light {
   color: var(--color-light);
 }
-.logo-dark {
+.logo--dark {
   color: var(--color-dark);
 }
 .menu {
