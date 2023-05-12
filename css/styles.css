@@ -1,4 +1,5 @@
 /* pseudoklasa :root zmienne globalne */
+
 :root {
   --color-primary: #212121;
   --color-secondary: #2196f3;
@@ -38,6 +39,12 @@ input {
   border: none;
   outline: none;
 }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 .section {
   padding: 94px 0;
 }
@@ -48,11 +55,9 @@ input {
   line-height: 1.2;
   text-align: center;
 }
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
+
+/* header */
+
 .header {
   display: flex;
   align-items: center;
@@ -77,22 +82,22 @@ input {
 .logo--dark {
   color: var(--color-dark);
 }
-.menu {
+.header__menu {
   display: flex;
   gap: 40px;
 }
-.link,
-.link-active {
+.header__link,
+.header__link--active {
   position: relative;
   padding-bottom: 32px;
   color: var(--color-primary);
   transition: var(--hover-transition);
 }
-.link-active {
+.header__link--active {
   color: var(--color-secondary);
 }
-.link::after,
-.link-active::after {
+.header__link::after,
+.header__link--active::after {
   content: '';
   position: absolute;
   width: 0;
@@ -104,21 +109,21 @@ input {
   transform: translate(-50%, 0);
   transition: var(--hover-transition);
 }
-.link:hover,
-.link:focus,
+.header__link:hover,
+.header__link:focus,
 .link-contact:hover {
   color: var(--color-secondary);
   fill: currentColor;
 }
-.link:hover::after,
-.link:focus::after {
+.header__link:hover::after,
+.header__link:focus::after {
   width: 100%;
 }
-.link-active::after {
+.header__link--active::after {
   width: 100%;
   transition-property: none;
 }
-.contacts {
+.header__contacts {
   display: flex;
   gap: 40px;
 }
@@ -132,8 +137,8 @@ input {
 .link-contact-icon {
   margin-right: 10px;
 }
-.menu,
-.contacts {
+.header__menu,
+.header__contacts {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
