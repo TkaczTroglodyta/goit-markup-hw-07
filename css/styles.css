@@ -1,4 +1,4 @@
-/* pseudoklasa :root zmienne globalne */
+/* pseudoclass :root global variables */
 
 :root {
   --color-primary: #212121;
@@ -111,7 +111,7 @@ input {
 }
 .header__link:hover,
 .header__link:focus,
-.link-contact:hover {
+.contact:hover {
   color: var(--color-secondary);
   fill: currentColor;
 }
@@ -127,14 +127,14 @@ input {
   display: flex;
   gap: 40px;
 }
-.link-contact {
+.contact {
   display: flex;
   align-items: center;
   color: var(--color-medium);
   fill: currentColor;
   transition: var(--hover-transition);
 }
-.link-contact-icon {
+.contact__icon {
   margin-right: 10px;
 }
 .header__menu,
@@ -144,6 +144,9 @@ input {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+/* main */
+
 .top-line {
   border-top: 1px solid var(--color-border-primary);
 }
