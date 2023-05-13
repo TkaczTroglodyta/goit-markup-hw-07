@@ -455,7 +455,9 @@ input {
   visibility: hidden;
   pointer-events: none;
 }
-/* form in modal */
+
+/* form in modal window */
+
 .form-wrapper {
   width: 448px;
   margin: 2px 40px;
