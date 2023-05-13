@@ -410,7 +410,7 @@ input {
 }
 /* modal window */
 
-.modal-backdrop {
+.backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -418,7 +418,7 @@ input {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.modal-content {
+.modal__content {
   position: absolute;
   display: flex;
   top: 50%;
@@ -431,7 +431,7 @@ input {
   border-radius: 4px;
   transform: translate(-50%, -50%);
 }
-.btn-modal-close {
+.modal__btn {
   position: absolute;
   cursor: pointer;
   top: 8px;
@@ -445,8 +445,8 @@ input {
   fill: var(--color-dark);
   transition: var(--hover-transition);
 }
-.btn-modal-close:hover,
-.btn-modal-close:focus {
+.modal__btn:hover,
+.modal__btn:focus {
   border-color: rgba(33, 150, 243, 0.2);
   fill: var(--color-secondary);
 }
@@ -458,13 +458,13 @@ input {
 
 /* form in modal window */
 
-.form-wrapper {
+.data {
   width: 448px;
   margin: 2px 40px;
   padding: 32px 0;
   text-align: center;
 }
-.form-wrapper h4 {
+.data__h4 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1.8;
@@ -472,7 +472,7 @@ input {
   padding-bottom: 12px;
   color: var(--color-dark);
 }
-.form-label-box {
+.data__label {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -482,7 +482,7 @@ input {
   color: var(--color-medium);
   outline: none;
 }
-.data-label {
+.data__box {
   display: inline-flex;
   align-items: center;
   padding: 11px 15px;
@@ -490,24 +490,24 @@ input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.data-label,
-.data-input {
+.data__box,
+.data__input {
   width: 448px;
 }
-.data-label:hover,
+.data__box:hover,
 .data-comment:hover {
   border-color: var(--color-secondary);
   fill: var(--color-secondary);
   transition: var(--hover-transition);
 }
-.data-label:focus-within,
-.data-input:focus-within,
+.data__box:focus-within,
+.data__input:focus-within,
 .data-comment:focus {
   border-color: var(--color-secondary);
   fill: var(--color-secondary);
   transition: var(--hover-transition);
 }
-.data-input-icon {
+.data__icon {
   margin-right: 15px;
 }
 .form-p-label {
