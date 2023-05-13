@@ -172,7 +172,7 @@ input {
   text-transform: uppercase;
 }
 .slogan__btn,
-.btn-nslt,
+.newsletter__btn,
 .data-subm-btn {
   cursor: pointer;
   color: var(--color-light);
@@ -191,14 +191,14 @@ input {
 
 /* 4 informations */
 
-.section-infos {
+.infos {
   padding-bottom: 0;
 }
-.infos {
+.infos__list {
   display: flex;
   gap: 30px;
 }
-.rect-infos {
+.infos__rect {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -208,33 +208,36 @@ input {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.icon-infos {
+.infos__icon {
   width: 70px;
   height: 70px;
 }
-.infos h3 {
+.infos__h3 {
   font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
 }
-.infos p {
+.infos__text {
   font-size: 14px;
   line-height: 1.7;
   padding-top: 10px;
 }
+
+/* activities */
+
 .activities,
 .customers {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
-.activ-img {
+.activities__img {
   position: relative;
   display: inline-flex;
 }
-.activ-img-title {
+.activities__img--title {
   position: absolute;
   left: 0;
   right: 0;
@@ -242,7 +245,7 @@ input {
   background-color: rgba(47, 48, 58, 0.8);
   padding: 27px 82px;
 }
-.activ-img-title h3 {
+.activities__h3 {
   font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 700;
@@ -251,6 +254,9 @@ input {
   text-align: center;
   text-transform: uppercase;
 }
+
+/* team */
+
 .section-team {
   background-color: var(--color-bgcolor-light);
 }

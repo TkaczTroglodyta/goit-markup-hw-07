@@ -66,53 +66,53 @@
         </div>
       </section>
       <!-- 4 informations -->
-      <section class="section section-infos">
+      <section class="section infos">
         <div class="container">
-          <ul class="infos">
+          <ul class="infos__list">
             <li>
-              <div class="rect-infos">
-                <svg class="icon-infos">
+              <div class="infos__rect">
+                <svg class="infos__icon">
                   <use href="./images/icons.svg#icon-antenna" />
                 </svg>
               </div>
-              <h3>Lorem ipsum</h3>
-              <p>
+              <h3 class="infos__h3">Lorem ipsum</h3>
+              <p class="infos__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada.
               </p>
             </li>
             <li>
-              <div class="rect-infos">
-                <svg class="icon-infos">
+              <div class="infos__rect">
+                <svg class="infos__icon">
                   <use href="./images/icons.svg#icon-clock" />
                 </svg>
               </div>
-              <h3>Lorem ipsum</h3>
-              <p>
+              <h3 class="infos__h3">Lorem ipsum</h3>
+              <p class="infos__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada.
               </p>
             </li>
             <li>
-              <div class="rect-infos">
-                <svg class="icon-infos">
+              <div class="infos__rect">
+                <svg class="infos__icon">
                   <use href="./images/icons.svg#icon-diagram" />
                 </svg>
               </div>
-              <h3>Lorem ipsum</h3>
-              <p>
+              <h3 class="infos__h3">Lorem ipsum</h3>
+              <p class="infos__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada.
               </p>
             </li>
             <li>
-              <div class="rect-infos">
-                <svg class="icon-infos">
+              <div class="infos__rect">
+                <svg class="infos__icon">
                   <use href="./images/icons.svg#icon-astronaut" />
                 </svg>
               </div>
-              <h3>Lorem ipsum</h3>
-              <p>
+              <h3 class="infos__h3">Lorem ipsum</h3>
+              <p class="infos__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada.
               </p>
@@ -120,33 +120,39 @@
           </ul>
         </div>
       </section>
-      <!-- our activities -->
+      <!-- activities -->
       <section class="section">
         <div class="container">
           <h2>Czym się zajmujemy</h2>
           <ul class="activities">
             <li>
-              <figure class="activ-img">
+              <figure class="activities__img">
                 <img src="images/img_01.jpg" alt="Aplikacje komputerowe" width="370" height="294" />
-                <figcaption class="activ-img-title"><h3>Aplikacje komputerowe</h3></figcaption>
+                <figcaption class="activities__img--title">
+                  <h3 class="activities__h3">Aplikacje komputerowe</h3>
+                </figcaption>
               </figure>
             </li>
             <li>
-              <figure class="activ-img">
+              <figure class="activities__img">
                 <img src="images/img_02.jpg" alt="Aplikacje mobilne" width="370" height="294" />
-                <figcaption class="activ-img-title"><h3>Aplikacje mobilne</h3></figcaption>
+                <figcaption class="activities__img--title">
+                  <h3 class="activities__h3">Aplikacje mobilne</h3>
+                </figcaption>
               </figure>
             </li>
             <li>
-              <figure class="activ-img">
+              <figure class="activities__img">
                 <img src="images/img_03.jpg" alt="Rozwiązania graficzne" width="370" height="294" />
-                <figcaption class="activ-img-title"><h3>Rozwiązania graficzne</h3></figcaption>
+                <figcaption class="activities__img--title">
+                  <h3 class="activities__h3">Rozwiązania graficzne</h3>
+                </figcaption>
               </figure>
             </li>
           </ul>
         </div>
       </section>
-      <!-- our team -->
+      <!-- team -->
       <section class="section section-team">
         <div class="container">
           <h2>Nasz zespół</h2>
@@ -347,11 +353,11 @@
         </div>
         <div>
           <h3>Zapisz się do newslettera</h3>
-          <form name="nslt_form" autocomplete="off" class="footer-nslt" novalidate>
+          <form name="newsletter" autocomplete="off" class="footer-nslt" novalidate>
             <label>
               <input type="email" class="footer-nslt-inp" placeholder="E-mail" />
             </label>
-            <button type="submit" class="btn-nslt">
+            <button type="submit" class="newsletter__btn">
               Zapisz się
               <svg class="footer-icon-send" width="24" height="24">
                 <use href="./images/icons.svg#icon-send" />
