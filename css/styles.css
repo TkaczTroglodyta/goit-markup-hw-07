@@ -300,7 +300,10 @@ input {
   fill: var(--color-light);
   background-color: var(--color-secondary);
 }
-.rect-c {
+
+/* customers */
+
+.customers__rect {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -311,24 +314,26 @@ input {
   background: var(--color-light);
   transition: var(--hover-transition);
 }
-.rect-c:hover,
-.rect-c:focus {
+.customers__rect:hover,
+.customers__rect:focus {
   border-color: var(--color-secondary);
 }
-.icon-customer {
+.customers__icon {
   padding-top: 2px;
   fill: var(--color-tertiary);
   transition: var(--hover-transition);
 }
-.icon-customer:hover,
-.icon-customer:focus {
+.customers__icon:hover,
+.customers__icon:focus {
   fill: var(--color-secondary);
 }
+
+/* footer */
+
 .dark-bg {
   padding: 56px 0;
   background-color: var(--color-bgcolor-dark);
 }
-/* footer */
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
