@@ -145,12 +145,90 @@ input {
   letter-spacing: 0.02em;
 }
 
-/* main */
+/* footer */
 
-.top-line {
-  border-top: 1px solid var(--color-border-primary);
+.page-footer {
+  padding: 56px 0;
+  background-color: var(--color-bgcolor-dark);
+}
+.page-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.page-footer h3 {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--color-light);
+  padding-top: 12px;
+}
+.addr {
+  color: var(--color-light);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  padding-top: 11px;
+}
+.addr li {
+  padding-top: 9px;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 10px;
+}
+.footer-social__icon {
+  cursor: pointer;
+  fill: var(--color-light);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  border-radius: 50%;
+  transition: var(--hover-transition);
+}
+.footer-social__icon:hover {
+  fill: var(--color-light);
+  background-color: var(--color-secondary);
+}
+.footer-nsltr {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 12px;
+}
+.footer-nsltr__email {
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.6);
+  width: 358px; /* should be 369px for proper aligning in my project */
+  height: 50px;
+  padding-left: 16px;
+  background-color: var(--color-bgcolor-dark);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+.footer-nsltr__email:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.footer-nsltr__btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 28px 10px 42px;
+  fill: var(--color-light);
+}
+.footer-nsltr__icon {
+  margin-left: 24px;
 }
 
+/* INDEX */
+
+/* main */
 /* slogan */
 
 .slogan {
@@ -328,86 +406,6 @@ input {
   fill: var(--color-secondary);
 }
 
-/* footer */
-
-.page-footer {
-  padding: 56px 0;
-  background-color: var(--color-bgcolor-dark);
-}
-.page-footer__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-.page-footer h3 {
-  font-family: var(--font-family-primary);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
-  text-transform: uppercase;
-  color: var(--color-light);
-  padding-top: 12px;
-}
-.addr {
-  color: var(--color-light);
-  font-size: 14px;
-  line-height: 1.7;
-  font-style: normal;
-  padding-top: 11px;
-}
-.addr li {
-  padding-top: 9px;
-}
-.footer-social {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  gap: 10px;
-}
-.footer-social__icon {
-  cursor: pointer;
-  fill: var(--color-light);
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 6px;
-  border-radius: 50%;
-  transition: var(--hover-transition);
-}
-.footer-social__icon:hover {
-  fill: var(--color-light);
-  background-color: var(--color-secondary);
-}
-.footer-nsltr {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  gap: 12px;
-}
-.footer-nsltr__email {
-  line-height: 1.3;
-  color: rgba(255, 255, 255, 0.6);
-  width: 358px; /* should be 369px for proper aligning in my project */
-  height: 50px;
-  padding-left: 16px;
-  background-color: var(--color-bgcolor-dark);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-}
-.footer-nsltr__email:focus {
-  outline: none;
-  border-color: rgba(255, 255, 255, 0.3);
-}
-.footer-nsltr__btn {
-  display: inline-flex;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 28px 10px 42px;
-  fill: var(--color-light);
-}
-.footer-nsltr__icon {
-  margin-left: 24px;
-}
 /* modal window */
 
 .backdrop {
@@ -510,11 +508,6 @@ input {
 .data__icon {
   margin-right: 15px;
 }
-/* .form-p-label {
-  text-align: left;
-  padding-bottom: 12px;
-  color: var(--color-medium);
-} */
 .data__comment {
   resize: none;
   margin: 5px 0;
@@ -600,8 +593,11 @@ input {
   transition: var(--active-transition);
 }
 
-/* portfolio */
+/* PORTFOLIO */
 
+.top-line {
+  border-top: 1px solid var(--color-border-primary);
+}
 .selection-btns {
   display: flex;
   justify-content: center;
