@@ -1,6 +1,6 @@
 /* pseudoclass :root global variables */
 
-/* :root {
+:root {
   --color-primary: #212121;
   --color-secondary: #2196f3;
   --color-tertiary: #afb1b8;
@@ -53,11 +53,11 @@ input {
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
-} */
+}
 
 /* header */
 
-/* .page-header {
+.page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,8 +84,8 @@ input {
 .page-header__menu {
   display: flex;
   gap: 40px;
-} */
-/* .page-header__link,
+}
+.page-header__link,
 .page-header__link--active {
   position: relative;
   padding-bottom: 32px;
@@ -94,7 +94,7 @@ input {
 }
 .page-header__link--active {
   color: var(--color-secondary);
-} */
+}
 .page-header__link::after,
 .page-header__link--active::after {
   content: '';

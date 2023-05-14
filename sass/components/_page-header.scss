@@ -31,12 +31,23 @@
   padding-bottom: 32px;
   color: $colorPrimary;
   transition: $hoverTransition;
+  &::after {
+    content: '';
+  position: absolute;
+  width: 0;
+  height: 4px;
+  left: 50%;
+  bottom: 0;
+  background-color: $colorSecondary;
+  border-radius: 2px;
+  transform: translate(-50%, 0);
+  transition: $hoverTransition;
+  }
 }
 .page-header__link--active {
   @extend .page-header__link;
   color: $colorSecondary;
 }
-.page-header__link::after,
 .page-header__link--active::after {
   content: '';
   position: absolute;
