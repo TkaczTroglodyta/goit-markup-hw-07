@@ -39,7 +39,6 @@ input {
   border: none;
   outline: none;
 }
-
 .container {
   max-width: 1200px;
   width: 100%;
@@ -56,17 +55,17 @@ input {
   text-align: center;
 }
 
-/* page-header */
+/* header */
 
 .page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0; /* calculated padding */
+  padding: 24px 0;
 }
 .page-header__nav {
   display: flex;
-  align-items: center; /* needed for centering 'nav' items to 'logo' */
+  align-items: center;
   background-color: var(--color-light);
 }
 .logo {
@@ -598,13 +597,16 @@ input {
 .top-line {
   border-top: 1px solid var(--color-border-primary);
 }
-.selection-btns {
+
+/* buttons */
+
+.buttons {
   display: flex;
   justify-content: center;
   gap: 8px;
   padding-bottom: 50px;
 }
-.btn-filter {
+.buttons__filter {
   cursor: pointer;
   color: var(--color-primary);
   background-color: var(--color-bgcolor-light);
@@ -615,47 +617,50 @@ input {
   border-radius: 4px;
   transition: var(--hover-transition);
 }
-.btn-filter:hover,
-.btn-filter:focus {
+.buttons__filter:hover,
+.buttons__filter:focus {
   color: var(--color-light);
   background-color: var(--color-secondary);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/* achievements */
+
 .achievements {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
 }
-.achieve-card {
+.achievements__card {
   position: relative;
   cursor: pointer;
   border: 1px solid #eeeeee;
   transition: var(--hover-transition);
 }
-.achieve-card:hover,
-.achieve-card:focus {
+.achievements__card:hover,
+.achievements__card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.achieve-card h3 {
+.achievements__card h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   padding: 20px 24px 4px;
 }
-.achieve-card p {
+.achievements__card p {
   line-height: 1.9;
   padding: 4px 24px 20px;
 }
-.achieve-box {
+.achievements__box {
   position: absolute;
   width: 370px;
   height: 294px;
   overflow: hidden;
 }
-.achieve-overlay {
+.achievements__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -665,13 +670,13 @@ input {
   transform: translateY(100%);
   transition: var(--hover-transition);
 }
-.achieve-overlay-text {
+.achievements__text {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-light);
   padding: 49px 45px 49px 24px;
 }
-.achieve-card:hover .achieve-overlay {
+.achievements__card:hover .achievements__overlay {
   transform: translateY(0);
 }
