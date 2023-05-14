@@ -85,7 +85,7 @@ input {
   display: flex;
   gap: 40px;
 } */
-.page-header__link,
+/* .page-header__link,
 .page-header__link--active {
   position: relative;
   padding-bottom: 32px;
@@ -94,7 +94,7 @@ input {
 }
 .page-header__link--active {
   color: var(--color-secondary);
-}
+} */
 .page-header__link::after,
 .page-header__link--active::after {
   content: '';
