@@ -1,0 +1,27 @@
+@use './utils/variables' as *;
+@import './components/page-base';
+@import './components/page-header';
+
+* {
+  margin: 0;
+}
+body {
+  font-family: $fontFamilyPrimary;
+  background-color: $colorLight;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: $defaultNone;
+  padding-inline-start: 0px;
+}
+a {
+  text-decoration: $defaultNone;
+  color: $colorSecondary;
+}
+p {
+  color: $colorMedium;
+}
+input {
+  border: $defaultNone;
+  outline: $defaultNone;
+}

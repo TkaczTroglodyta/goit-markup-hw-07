@@ -1,0 +1,28 @@
+.page-header {
+  display: flex;
+  align-items: $flexAlignItems;
+  justify-content: space-between;
+  padding: 24px 0;
+  &__menu {
+    display: flex;
+    gap: 40px;
+  }
+}
+.page-header__nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-light);
+}
+.logo {
+  font-family: $fontFamilySecondary, sans-serif;
+  padding-right: 80px;
+  font-size: 26px;
+  font-weight: $fontWeightHeavy;
+  line-height: 1.2;
+  &--light {
+    color: $colorLight;
+  }
+  &--dark {
+    color: $colorDark;
+  }
+}
