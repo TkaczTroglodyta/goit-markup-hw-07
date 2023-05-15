@@ -1,6 +1,13 @@
 @use './utils/variables' as *;
 @import './components/page-base';
 @import './components/page-header';
+@import './components/slogan';
+@import './components/infos';
+@import './components/activities';
+@import './components/team';
+@import './components/customers';
+@import './components/page-footer';
+@import './components/form';
 
 * {
   margin: 0;
