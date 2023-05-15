@@ -155,7 +155,6 @@ input {
   justify-content: space-between;
 }
 .page-footer h3 {
-  font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -240,7 +239,6 @@ input {
   background-color: var(--color-bgcolor-dark);
 }
 .slogan__h1 {
-  font-family: var(--font-family-primary);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;

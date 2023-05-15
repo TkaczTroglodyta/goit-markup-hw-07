@@ -17,7 +17,7 @@
   font-family: $fontFamilySecondary, sans-serif;
   padding-right: 80px;
   font-size: 26px;
-  font-weight: $fontWeightHeavy;
+  font-weight: $fontWeightBold;
   line-height: 1.2;
   &--light {
     color: getColor('light');
@@ -83,7 +83,7 @@
 .page-header__menu,
 .page-header__contacts {
   font-size: 14px;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightMedium;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
