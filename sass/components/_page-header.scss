@@ -11,7 +11,7 @@
 .page-header__nav {
   display: flex;
   align-items: center;
-  background-color: var(--color-light);
+  background-color: $colorLight;
 }
 .logo {
   font-family: $fontFamilySecondary, sans-serif;
@@ -53,12 +53,37 @@
 .page-header__link:focus {
   color: $colorSecondary;
   fill: currentColor;
-  &__::after,
-  &__::after {
+  &::after,
+  &::after {
     width: $fullWidth;
   }
 }
-.contact:hover {
-  color: $colorSecondary;
+.page-header__link--active::after {
+  width: $fullWidth;
+  transition-property: none;
+}
+.page-header__contacts {
+  display: flex;
+  gap: 40px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  color: $colorMedium;
   fill: currentColor;
+  transition: $hoverTransition;
+  &:hover {
+    color: $colorSecondary;
+    fill: currentColor;
+  }
+}
+.contact__icon {
+  margin-right: 10px;
+}
+.page-header__menu,
+.page-header__contacts {
+  font-size: 14px;
+  font-weight: $fontWeightBold;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
