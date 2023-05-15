@@ -11,7 +11,7 @@
 .page-header__nav {
   display: flex;
   align-items: center;
-  background-color: $colorLight;
+  background-color: getColor('light');
 }
 .logo {
   font-family: $fontFamilySecondary, sans-serif;
@@ -20,21 +20,21 @@
   font-weight: $fontWeightHeavy;
   line-height: 1.2;
   &--light {
-    color: $colorLight;
+    color: getColor('light');
   }
   &--dark {
-    color: $colorDark;
+    color: getColor('dark');
   }
 }
 .page-header__link {
   position: relative;
   padding-bottom: 32px;
-  color: $colorPrimary;
+  color: getColor('primary');
   transition: $hoverTransition;
 }
 .page-header__link--active {
   @extend .page-header__link;
-  color: $colorSecondary;
+  color: getColor('secondary');
 }
 .page-header__link::after,
 .page-header__link--active::after {
@@ -44,14 +44,14 @@
   height: 4px;
   left: 50%;
   bottom: 0;
-  background-color: $colorSecondary;
+  background-color: getColor('secondary');
   border-radius: 2px;
   transform: translate(-50%, 0);
   transition: $hoverTransition;
 }
 .page-header__link:hover,
 .page-header__link:focus {
-  color: $colorSecondary;
+  color: getColor('secondary');
   fill: currentColor;
   &::after,
   &::after {
@@ -69,11 +69,11 @@
 .contact {
   display: flex;
   align-items: center;
-  color: $colorMedium;
+  color: getColor('medium');
   fill: currentColor;
   transition: $hoverTransition;
   &:hover {
-    color: $colorSecondary;
+    color: getColor('secondary');
     fill: currentColor;
   }
 }
