@@ -6,10 +6,10 @@
 .section {
   padding: 94px 0;
 }
-.section h2 {
+.section__text {
   font-family: $fontFamilyPrimary;
   font-size: 36px;
   font-weight: $fontWeightBold;
   line-height: 1.2;
-  text-align: $textAlignCenter;
+  text-align: center;
 }
