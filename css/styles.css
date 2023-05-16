@@ -47,7 +47,7 @@ input {
 .section {
   padding: 94px 0;
 }
-.section h2 {
+.section__text {
   font-family: var(--font-family-primary);
   font-size: 36px;
   font-weight: 700;
@@ -238,7 +238,7 @@ input {
   background-position: 50% 50%;
   background-color: var(--color-bgcolor-dark);
 }
-.slogan__h1 {
+.slogan__text {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
