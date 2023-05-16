@@ -648,7 +648,7 @@ input {
   letter-spacing: 0.06em;
   padding: 20px 24px 4px;
 }
-.achievements__card p {
+.achievements__subtitle {
   line-height: 1.9;
   padding: 4px 24px 20px;
 }
