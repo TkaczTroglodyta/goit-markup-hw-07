@@ -9,7 +9,7 @@
 }
 .slogan__text {
   font-size: 44px;
-  font-weight: $fontWeightHeavy;
+  font-weight: getWeight('heavy');
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: getColor('light');
@@ -21,7 +21,7 @@
   cursor: pointer;
   color: getColor('light');
   background-color: getColor('secondary');
-  font-weight: $fontWeightBold;
+  font-weight: getWeight('bold');
   line-height: 1.9;
   letter-spacing: 0.06em;
   border: none;
