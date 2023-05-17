@@ -9,7 +9,7 @@
 .section__text {
   font-family: $fontFamilyPrimary;
   font-size: 36px;
-  font-weight: $fontWeightBold;
+  font-weight: getWeight('bold');
   line-height: 1.2;
   text-align: center;
 }

@@ -1,6 +1,7 @@
 @use './utils/variables' as *;
 @use './utils/colors' as *;
-@use './utils/reset' as *;
+@use './utils/weights' as *;
+@import './utils/reset';
 @import './components/page-base';
 @import './components/page-header';
 @import './components/slogan';
