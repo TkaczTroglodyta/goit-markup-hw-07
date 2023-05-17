@@ -169,7 +169,7 @@ input {
   font-style: normal;
   padding-top: 11px;
 }
-.addr li {
+.addr__line {
   padding-top: 9px;
 }
 .footer-social {
