@@ -1,5 +1,6 @@
 @use './utils/variables' as *;
 @use './utils/colors' as *;
+@use './utils/reset' as *;
 @import './components/page-base';
 @import './components/page-header';
 @import './components/slogan';
@@ -9,27 +10,3 @@
 @import './components/customers';
 @import './components/page-footer';
 @import './components/form';
-
-* {
-  margin: 0;
-}
-body {
-  font-family: $fontFamilyPrimary;
-  background-color: getColor('light');
-  letter-spacing: 0.03em;
-}
-ul {
-  list-style: $defaultNone;
-  padding-inline-start: 0px;
-}
-a {
-  text-decoration: $defaultNone;
-  color: getColor('secondary');
-}
-p {
-  color: getColor('medium');
-}
-input {
-  border: $defaultNone;
-  outline: $defaultNone;
-}
