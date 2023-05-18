@@ -4,16 +4,16 @@
     display: flex;
     gap: 30px;
   }
-}
-.infos__rect {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  background-color: getColor('light');
-  border-radius: 4px;
-  margin-bottom: 30px;
+  &__rect {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: getColor('light');
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
 }
 .infos__icon {
   width: 70px;
