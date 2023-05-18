@@ -31,22 +31,20 @@
   height: 294px;
   overflow: hidden;
 }
-.achievements__overlay {
+.achievements__text {
   position: absolute;
   top: 0;
   left: 0;
   width: $fullWidth;
   height: $fullHeight;
-  background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  transition: $hoverTransition;
-}
-.achievements__text {
   font-size: 18px;
   line-height: 1.6;
   color: getColor('light');
   padding: 49px 45px 49px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition: $hoverTransition;
 }
-.achievements__card:hover .achievements__overlay {
+.achievements__card:hover .achievements__text {
   transform: translateY(0);
 }
