@@ -2,16 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-}
-.achievements__card {
-  position: relative;
-  cursor: pointer;
-  border: 1px solid #eeeeee;
-  transition: $hoverTransition;
-  &:hover,
-  &:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
+  &__card {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+    transition: $hoverTransition;
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
   }
 }
 .achievements__title {
