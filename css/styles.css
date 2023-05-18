@@ -442,7 +442,7 @@ input {
 }
 .modal__btn:hover,
 .modal__btn:focus {
-  border-color: rgba(33, 150, 243, 0.2);
+  border-color: rgba(33, 150, 243, 0.5);
   fill: var(--color-secondary);
 }
 .is-hidden {

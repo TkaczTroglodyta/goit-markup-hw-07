@@ -33,7 +33,7 @@
     transition: var(--hover-transition);
     &:hover,
     &:focus {
-      border-color: rgba(33, 150, 243, 0.2);
+      border-color: rgba(33, 150, 243, 0.5);
       fill: $hoverTransition;
     }
   }
