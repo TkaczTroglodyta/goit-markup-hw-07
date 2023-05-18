@@ -35,10 +35,10 @@
   width: 448px;
 }
 .form__box:hover,
-.form__comment:hover,
 .form__box:focus-within,
-.form__input:focus-within,
-.form__comment:focus {
+.form__comment:hover,
+.form__comment:focus,
+.form__input:focus-within {
   border-color: getColor('secondary');
   fill: getColor('secondary');
   transition: $hoverTransition;
