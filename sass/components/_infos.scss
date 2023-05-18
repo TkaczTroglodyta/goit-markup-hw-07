@@ -1,9 +1,9 @@
 .infos {
   padding-bottom: 0;
-}
-.infos__list {
-  display: flex;
-  gap: 30px;
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
 }
 .infos__rect {
   display: inline-flex;

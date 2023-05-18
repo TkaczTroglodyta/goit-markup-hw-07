@@ -6,14 +6,14 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: getColor('bg_dark');
-}
-.slogan__text {
-  font-size: 44px;
-  font-weight: getWeight('heavy');
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  color: getColor('light');
-  text-transform: uppercase;
+  &__text {
+    font-size: 44px;
+    font-weight: getWeight('heavy');
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: getColor('light');
+    text-transform: uppercase;
+  }
 }
 .slogan__btn,
 .footer-nsltr__btn,

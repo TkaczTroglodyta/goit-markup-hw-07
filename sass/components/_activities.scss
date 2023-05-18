@@ -19,7 +19,7 @@
 .activities__text {
   font-family: $fontFamilyPrimary;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: getWeight('bold');
   line-height: 1.1;
   color: getColor('light');
   text-align: center;
