@@ -13,7 +13,7 @@
     font-weight: getWeight('medium');
     line-height: 1.6;
     padding: 6px 22px;
-    border: none;
+    border: $defaultNone;
     border-radius: 4px;
     transition: $hoverTransition;
     &:hover,

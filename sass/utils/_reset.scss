@@ -4,7 +4,7 @@
 body {
   font-family: $fontFamilyPrimary;
   background-color: getColor('light');
-  letter-spacing: 0.03em;
+  letter-spacing: $letterSpacing;
 }
 ul {
   list-style: $defaultNone;

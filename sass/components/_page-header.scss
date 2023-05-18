@@ -60,7 +60,7 @@
 }
 .page-header__link--active::after {
   width: $fullWidth;
-  transition-property: none;
+  transition-property: $defaultNone;
 }
 .page-header__contacts {
   display: flex;

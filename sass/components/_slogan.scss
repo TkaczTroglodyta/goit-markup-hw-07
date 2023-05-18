@@ -24,7 +24,7 @@
   font-weight: getWeight('bold');
   line-height: 1.9;
   letter-spacing: 0.06em;
-  border: none;
+  border: $defaultNone;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
